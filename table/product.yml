@@ -1,0 +1,45 @@
+name: Product
+comment: 产品
+fields:
+  - name: Name
+    type: string
+    comment: 名称
+    required: true
+    binding_options: ""
+    gorm_options: "size:50;index;"
+  - name: Description
+    type: string
+    comment: 描述
+    required: false
+    binding_options: ""
+    gorm_options: "size:200;"
+  - name: Os
+    type: string
+    comment: 操作系统
+    required: false
+    binding_options: ""
+    gorm_options: "size:50;"
+  - name: UpdateMethod
+    type: string
+    comment: 更新方式
+    required: false
+    binding_options: ""
+    gorm_options: "size:50;"
+  - name: Format
+    type: string
+    comment: 固件格式
+    required: false
+    binding_options: ""
+    gorm_options: "size:50;"
+  - name: Network
+    type: string
+    comment: 网络连接方式
+    required: false
+    binding_options: ""
+    gorm_options: "size:50;"
+  - name: Type
+    type: string
+    comment: 终端类型
+    required: false
+    binding_options: ""
+    gorm_options: "size:50;"

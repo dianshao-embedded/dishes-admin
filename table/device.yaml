@@ -1,0 +1,39 @@
+name: Device
+comment: 设备
+fields:
+  - name: Name
+    type: string
+    comment: 设备名称
+    required: true
+    binding_options: ""
+    gorm_options: "size:100;index;"
+  - name: Version
+    type: string
+    comment: 当前版本
+    required: false
+    binding_options: ""
+    gorm_options: "size:50;"
+  - name: Stage
+    type: string
+    comment: 设备所属阶段
+    required: false
+    binding_options: ""
+    gorm_options: "size:50;"
+  - name: SN
+    type: string
+    comment: 设备SN
+    required: false
+    binding_options: ""
+    gorm_options: "size:100;"
+  - name: Status
+    type: string
+    comment: 设备更新状态
+    required: false
+    binding_options: ""
+    gorm_options: "size:50;"
+  - name: Failure
+    type: int
+    comment: 失败次数
+    required: false
+    binding_options: ""
+    gorm_options: "index;default:0;"

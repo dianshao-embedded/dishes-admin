@@ -1,0 +1,21 @@
+name: Firmware
+comment: 固件
+fields:
+  - name: Name
+    type: string
+    comment: 名称
+    required: true
+    binding_options: ""
+    gorm_options: "size:50;index;"
+  - name: Version
+    type: string
+    comment: 版本
+    required: true
+    binding_options: ""
+    gorm_options: "size:50;"
+  - name: Size
+    type: string
+    comment: 大小
+    required: false
+    binding_options: ""
+    gorm_options: "size:200;"

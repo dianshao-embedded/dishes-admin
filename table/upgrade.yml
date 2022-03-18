@@ -1,0 +1,21 @@
+name: Upgrade
+comment: 更新记录
+fields:
+  - name: Version
+    type: string
+    comment: 版本号
+    required: false
+    binding_options: ""
+    gorm_options: "size:50;"
+  - name: Status
+    type: string
+    comment: 更新结果
+    required: false
+    binding_options: ""
+    gorm_options: "size:50;"
+  - name: Failure
+    type: int
+    comment: 失败次数
+    required: false
+    binding_options: ""
+    gorm_options: "index;default:0;"

@@ -1,0 +1,21 @@
+name: Remote
+comment: 远程连接
+fields:
+  - name: DeviceID
+    type: uint64
+    comment: 设备ID
+    required: true
+    binding_options: ""
+    gorm_options: "size:50;index;"
+  - name: Address
+    type: string
+    comment: IP 地址
+    required: false
+    binding_options: ""
+    gorm_options: "size:50;"
+  - name: Key
+    type: string
+    comment: 公钥
+    required: false
+    binding_options: ""
+    gorm_options: "size:150;"
