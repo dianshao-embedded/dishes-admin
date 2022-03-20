@@ -1,6 +1,6 @@
 FROM golang:1.17.6-alpine3.15 AS builder
 
-ENV GOPROXY=https://goproxy.io,direct
+ENV GOPROXY=https://proxy.golang.com.cn,direct
 
 RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.tuna.tsinghua.edu.cn/g' /etc/apk/repositories
 

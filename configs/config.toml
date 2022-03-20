@@ -22,7 +22,7 @@ KeyFile = ""
 # http优雅关闭等待超时时长(单位秒)
 ShutdownTimeout = 300
 # 允许的最大内容长度(64M)
-MaxContentLength = 536,870,912
+MaxContentLength = 536870912
 # 允许输出的最大请求日志长度
 MaxReqLoggerLength = 1024
 
